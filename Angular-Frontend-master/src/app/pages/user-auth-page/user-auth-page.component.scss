@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+}
+
+.content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.block{
+  width: 100%;
+  //background-color: bisque;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, .7)
+}
+
+.container h1 {
+  margin: 20px 30px 20px 30px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.inputs, .contacts {
+  margin: 15px 50px;
+  text-align: center;
+}
+
+.inputs input, button {
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.buttons:hover .pi-user-plus {
+  cursor: pointer;
+  transition: all 500ms linear;
+  transform: translateX(200px);
+  opacity: 0;
+}
+
+.buttons:hover .pi-sign-in {
+  cursor: pointer;
+  transition: all 500ms linear;
+  transform: translateX(200px);
+  opacity: 0;
+}
+
+@media screen and (max-width: 1162px){
+  .container{
+    height: 70%;
+    width: 70%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 759px){
+  .container{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+p-messages{
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}

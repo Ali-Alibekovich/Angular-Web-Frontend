@@ -1,0 +1,25 @@
+.header {
+  min-width: 300px;
+  margin: 10px 0 0 0;
+  background-color: dimgray;
+  opacity: 70%;
+  text-align: center;
+  border-radius: 20px;
+
+  h1,p,a{
+    color: ghostwhite;
+    opacity: 100%;
+    font-size: 1.7rem;
+  }
+
+  p,a{
+    font-size: 1rem;
+    text-decoration: none;
+      margin-bottom: 1rem;
+  }
+  a:hover {
+    color: pink;
+    font-size: 1rem;
+    transition-duration: 0.3s;
+  }
+}

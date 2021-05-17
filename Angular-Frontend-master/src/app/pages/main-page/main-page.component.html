@@ -1,0 +1,28 @@
+<div>
+<p-messages [(value)]="message"></p-messages>
+  <p-button class="exit_button" label="Выйти из пользователя: {{name}}" (click)="logout()"><i class="pi pi-sign-out"></i></p-button>
+<!--<div>-->
+<!--  <app-head-comp></app-head-comp>-->
+<!--</div>-->
+<div class="content">
+  <div class="container">
+
+    <div class="image-and-form">
+
+      <!-- SVG -->
+      <div class="image">
+        <div style="width: 300px; height: 300px; text-align: center;">
+          <app-svg></app-svg>
+        </div>
+      </div>
+
+      <!-- form -->
+      <div class="form">
+        <app-form></app-form>
+      </div>
+    </div>
+
+    <app-data-table></app-data-table>
+  </div>
+</div>
+</div>

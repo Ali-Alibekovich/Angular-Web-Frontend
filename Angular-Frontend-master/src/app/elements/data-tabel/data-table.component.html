@@ -1,0 +1,18 @@
+<div class="table">
+  <!-- table -->
+  <table border="1">
+    <caption>Результат выполнения</caption>
+    <tr>
+      <th>X</th>
+      <th>Y</th>
+      <th>R</th>
+      <th>Попал?</th>
+    </tr>
+    <tr *ngFor="let point of data.reverse()">
+      <th>{{point.x}}</th>
+      <th>{{point.y}}</th>
+      <th>{{point.r}}</th>
+      <th>{{point.hit}}</th>
+    </tr>
+  </table>
+</div>
